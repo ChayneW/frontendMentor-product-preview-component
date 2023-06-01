@@ -31,9 +31,9 @@ Users should be able to:
 
 ### Useful resources
 
-- big shout outs to: @GuillermoBPY and his repository: https://github.com/GuillermoBPY/product-preview-card-component-main. Was having issues with how to make the website responsive, but after seeing how he constructed his code, and destructuring it to fit my code, I was finally was able to get the responsiveness needed.  
+- big shout outs to: @https://github.com/GuillermoBPY and his repository: https://github.com/GuillermoBPY/product-preview-card-component-main. Was having issues with how to make the website responsive, but after seeing how he constructed his code, and destructuring it to fit my code, I was finally was able to get the responsiveness needed.  
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
 
 ## Author
 
