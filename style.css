@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+
+html {
+    background-color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
+    --ft-Fraunces: "Fraunces", serif; 
+    --ft-Montserrat: "Montserrat", sans-serif; 
+}
+
+
+.main-container {
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    display: grid;
+    min-height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.product-card {
+    display: grid;
+    border-radius: 20px;
+    max-width: 380px;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.product-img-container {
+    width: 100%;
+}
+
+.product-details {
+    margin: 0px 10px 0px 25px;
+    width: 100%;  
+}
+
+.text-product-type {
+    font-family: var(--ft-Montserrat);
+    font-weight: 300;
+}
+
+.text-product-title {
+    font-family: var(--ft-Fraunces);
+    font-weight: 700;
+    font-size: 35px;
+    margin-right: 40px;
+}
+
+.text-product-details {    
+    font-family: var(--ft-Montserrat);
+    font-weight: 500;
+    line-height: 25px;
+    color: gray;
+    font-size: 14px;
+    margin-right: 80px;
+}
+
+.product-price-container {
+    display: flex;
+}
+
+.product-price {
+    font-family: var(--ft-Fraunces);
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+    color: gray;
+    font-family: var(--ft-Montserrat);
+    font-weight: 300;
+    text-decoration: line-through;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+
+.check-out {
+    display: flex;
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 0px 30px 0px 0px;
+    border-radius: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cart {
+    padding:20px 20px 0px 0px;
+    width: 20px;
+}
+
+.add-to-cart {
+    padding-left: 20px;
+    font-family: var(--ft-Montserrat);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+@media screen and (width >= 741px) {
+    .product-card {
+        max-width: 700px;
+        display: flex;
+    }
+
+    .product-img-container {
+        width: 50%;
+    }
+
+    .product-details {
+        width: 50%;
+    }
+
+    .check-out {
+        width: 90%;
+    }
+}
+
